@@ -69,7 +69,7 @@ body {
 }
 
 .navbar-links {
-  color: #fff;
+  color: var(--cc-color-white);
   font-size: 1.1rem;
   display: flex;
   align-items: center;
@@ -77,6 +77,11 @@ body {
   width: 125px;
   text-decoration: none;
   height: 100%;
+  transition: ease-in;
+}
+
+.navbar-links:hover {
+  color: var(--cc-color-darkyellow);
 }
 
 /* --------------- content --------------- */
